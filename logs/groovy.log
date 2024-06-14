@@ -1,0 +1,67 @@
+2024-06-14T09:07:23.850Z [info]: Request received 
+2024-06-14T09:07:24.837Z [info]: POST /api/auth/register 201 299 - 930.628 ms - guest guest 
+2024-06-14T09:08:04.821Z [info]: Request received 
+2024-06-14T09:08:04.924Z [info]: POST /api/auth/login 200 450 - 102.009 ms - guest guest 
+2024-06-14T09:09:03.691Z [info]: Request received 
+2024-06-14T09:09:03.850Z [info]: POST /api/orders 200 344 - 158.008 ms - 6667e0ec9d0c574d74ff7958 admin 
+2024-06-14T09:09:53.827Z [info]: Request received 
+2024-06-14T09:09:53.830Z [info]: GET /api/products/ 401 28 - 1.687 ms - guest guest 
+2024-06-14T09:10:17.554Z [info]: Request received 
+2024-06-14T09:10:17.582Z [info]: GET /api/products/ 403 21 - 25.043 ms - guest guest 
+2024-06-14T09:11:59.747Z [info]: Request received 
+2024-06-14T09:11:59.855Z [info]: POST /api/orders 200 344 - 107.064 ms - 666c084c0c336ee73e4683de user 
+2024-06-14T09:18:49.839Z [info]: Request received 
+2024-06-14T09:18:50.326Z [info]: POST /api/auth/login 200 449 - 485.575 ms - guest guest 
+2024-06-14T09:18:57.716Z [info]: Request received 
+2024-06-14T09:18:57.748Z [info]: POST /api/auth/login 200 454 - 30.419 ms - guest guest 
+2024-06-14T09:19:25.628Z [info]: Request received 
+2024-06-14T09:19:25.677Z [info]: POST /api/orders 200 344 - 48.519 ms - 6667e0ec9d0c574d74ff7958 admin 
+2024-06-14T09:36:59.643Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1"}
+2024-06-14T09:37:00.520Z [info]: POST /api/auth/login 200 454 - 731.056 ms - guest guest {}
+2024-06-14T09:37:27.171Z [info]: Request received {"path":"/api/products/","method":"GET","user":"guest","ip":"::1"}
+2024-06-14T09:37:27.194Z [info]: GET /api/products/ 403 21 - 21.075 ms - guest guest {}
+2024-06-14T09:38:56.311Z [info]: Request received {"path":"/api/products/","method":"GET","user":"guest","ip":"::1"}
+2024-06-14T09:38:57.677Z [info]: GET /api/products/ 200 450 - 946.436 ms - 6667e0ec9d0c574d74ff7958 admin {}
+2024-06-14T09:46:31.337Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh","password":"12345"}}
+2024-06-14T09:46:31.488Z [info]: POST /api/auth/login 200 454 - 149.582 ms - guest guest {}
+2024-06-14T09:46:55.747Z [info]: Request received {"path":"/api/auth/register","method":"POST","user":"guest","ip":"::1","body":{"firstname":"Jiya","lastname":"kansara","email":"jiya@gmail.com","password":"12345","address":"nadiad","phone":"9437878635"}}
+2024-06-14T09:46:56.760Z [info]: POST /api/auth/register 400 34 - 1013.070 ms - guest guest {}
+2024-06-14T09:59:31.410Z [info]: Request received {"path":"/api/auth/register","method":"POST","user":"guest","ip":"::1","body":{"firstname":"Jiya","lastname":"kansara","email":"jiya@gmail.com","address":"nadiad","phone":"9437878635"}}
+2024-06-14T09:59:32.774Z [info]: POST /api/auth/register - - - - ms - guest guest {}
+2024-06-14T09:59:46.582Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T09:59:47.070Z [info]: POST /api/auth/login 200 454 - 331.978 ms - guest guest {}
+2024-06-14T10:00:19.886Z [info]: Request received {"path":"/api/products/","method":"GET","user":"guest","ip":"::1","body":{"productname":"phone","price":"5000","desc":"this is very good phone","categories":["iphone","android"]}}
+2024-06-14T10:00:19.936Z [info]: GET /api/products/ 200 450 - 49.540 ms - 6667e0ec9d0c574d74ff7958 admin {}
+2024-06-14T10:09:58.534Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T10:09:58.747Z [info]: POST /api/auth/login 200 454 - 154.933 ms - guest guest {}
+2024-06-14T10:17:54.421Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T10:19:02.681Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T10:19:42.752Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T10:26:02.188Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T10:27:01.375Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T10:29:42.468Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T10:41:55.046Z [info]: Request received {"path":"/api/auth/register","method":"POST","user":"guest","ip":"::1","body":{"firstname":"Brijesh","lastname":"kansara","email":"brijesh@gmail.com","address":"nadiad","phone":"9437878635"}}
+2024-06-14T11:16:44.363Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"Brijesh"}}
+2024-06-14T11:25:06.685Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"Brijesh"}}
+2024-06-14T11:27:46.193Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"Brijesh"}}
+2024-06-14T11:28:21.305Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T11:31:48.036Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T11:37:01.056Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T11:41:44.726Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T11:43:02.127Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T11:44:30.982Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"Brijesh"}}
+2024-06-14T11:51:32.053Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"Brijesh"}}
+2024-06-14T11:51:32.109Z [info]: POST /api/auth/login 200 456 - 53.726 ms - guest guest {}
+2024-06-14T11:55:04.418Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T11:55:04.449Z [info]: POST /api/auth/login 200 454 - 29.343 ms - guest guest {}
+2024-06-14T12:45:19.394Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T12:46:21.286Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T12:54:17.621Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T12:54:17.704Z [info]: POST /api/auth/login 200 454 - 72.861 ms - guest guest {}
+2024-06-14T12:59:12.945Z [info]: Request received {"path":"/api/products/","method":"GET","user":"guest","ip":"::1","body":{"productname":"phone","price":"5000","desc":"this is very good phone","categories":["iphone","android"]}}
+2024-06-14T12:59:31.709Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T13:00:47.510Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T13:00:47.589Z [info]: POST /api/auth/login 200 454 - 73.165 ms - guest guest {}
+2024-06-14T13:03:06.340Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","ip":"::1","body":{"firstname":"devarsh"}}
+2024-06-14T13:03:06.412Z [info]: POST /api/auth/login 200 454 - 68.446 ms - guest guest {}
+2024-06-14T13:05:11.913Z [info]: Request received {"path":"/api/auth/login","method":"POST","user":"guest","role":"guest","ip":"::1","body":{"firstname":"devarsh"}}
